@@ -5,6 +5,11 @@
 Instead of using modern terms like "HTTP Requests" and "Data Packets," this project takes us back in time to a charming village where communication happens through personal, trained pigeons, routed through a central dovecote (the server).
 
 ---
+## 🌐 Live Application
+* **Frontend (Vercel):** [https://pigeon-post-simulation.vercel.app/](https://pigeon-post-simulation.vercel.app/)
+* **Source Code:** [https://github.com/odelia50872/Pigeon-Post-Server-Client-Simulation.git](https://github.com/odelia50872/Pigeon-Post-Server-Client-Simulation.git)
+
+---
 
 ## 📸 The Concept: From Pixel to Packet
 

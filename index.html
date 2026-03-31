@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div id="YankelDiv">
+        <div class="message">
+            <div id="YankelSendDiv">
+                <div id="YankelSend">
+                    <div class="head">
+                        <label for="YankelAddressee">to</label>
+                        <input list="YankelOptions" id="YankelAddressee" placeholder="name" />
+                    </div>
+                    <datalist id="YankelOptions">
+                        <option value="Moyshe">
+                        <option value="Zalmen">
+                    </datalist>
+                    <textarea type="text" id="YankelMessage"></textarea>
+                    <button id="YankelSendBtn">Send</button>
+                </div>
+            </div>
+            <div id="YankelgetDiv"></div>
+        </div>
+
+        <img class="pigeon" src="../images/YankelPigeon.png" id="YankelPigeon">
+        <img src="../images/YankelHouse.png" class="house" />
+    </div>
+
+    <div id="MoysheDiv">
+        <div class="message">
+            <div id="MoysheSendDiv">
+                <div id="MoysheSend">
+                    <div class="head">
+                        <label for="MoysheAddressee">to</label>
+                        <input list="MoysheOptions" id="MoysheAddressee" placeholder="name" />
+                    </div>
+                    <datalist id="MoysheOptions">
+                        <option value="Yankel">
+                        <option value="Zalmen">
+                    </datalist>
+                    <textarea type="text" id="MoysheMessage"></textarea>
+                    <button id="MoysheSendBtn">Send</button>
+                </div>
+            </div>
+            <div id="MoyshegetDiv"></div>
+        </div>
+        <img class="pigeon" src="../images/MoyshePigeon.png" id="MoyshePigeon">
+        <img src="../images/MoysheHouse.png" class="house" />
+    </div>
+
+    <div id="ZalmenDiv">
+        <div class="message">
+            <div id="ZalmenSendDiv">
+                <div id="ZalmenSend">
+                    <div class="head">
+                        <label for="ZalmenAddressee">to</label>
+                        <input list="ZalmenOptions" id="ZalmenAddressee" placeholder="name" />
+                    </div>
+                    <datalist id="ZalmenOptions">
+                        <option value="Yankel">
+                        <option value="Moyshe">
+                    </datalist>
+                    <textarea type="text" id="ZalmenMessage"></textarea>
+                    <button id="ZalmenSendBtn">Send</button>
+                </div>
+            </div>
+            <div id="ZalmengetDiv"></div>
+        </div>
+        <img class="pigeon" src="../images/ZalmenPigeon.png" id="ZalmenPigeon">
+        <img src="../images/ZalmenHouse.png" class="house" />
+    </div>
+
+    <template id="getTemplate">
+        <div class="head">
+            <p id="sender"></p>
+        </div>
+        <p id="content"></p>
+    </template>
+
+    <div id="dovecote">
+        <img id="dovecoteImg" src="../images/dovecote.png">
+    </div>
+
+</body>
+<script src="../js/Message.js"></script>
+<script src="../js/Pigeon.js"></script>
+<script src="../js/Client.js"></script>
+<script src="../js/Dovecote.js"></script>
+<script src="../js/main.js"></script>
+
+</html>
